@@ -1,0 +1,22 @@
+# Python files
+*.pyc
+__pycache__/
+.venv
+
+# Airflow logs
+logs/
+
+# Environment variables
+AV_api_key.txt
+
+# Docker related
+docker-compose.override.yml
+
+# Airflow settings
+airflow_settings.yaml
+
+# Ignore config files if they contain sensitive information
+config/
+
+# Pytest cache
+.pytest_cache/
