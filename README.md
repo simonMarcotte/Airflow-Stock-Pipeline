@@ -1,7 +1,7 @@
 # Airflow Stock Data Pipeline
 
-This project uses Apache Airflow to automate historical stock anaylsis for a particular stock over the last 20 years. 
-The DAG is run daily, grabbing historical stock data (currently for GOOGL), and stores it in BigQuery, which then triggers a calculation of the maximum stock profit during that time.
+This project uses Apache Airflow to automate historical stock anaylsis for a stock with the highest daily gain. 
+The DAG is run daily, grabbing historical stock data using the ticker, and stores it in BigQuery, which then triggers a calculation of the maximum stock profit up until today.
 
 ## Prerequisites:
 
