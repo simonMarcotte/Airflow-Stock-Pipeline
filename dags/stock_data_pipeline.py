@@ -15,7 +15,7 @@ from typing import Tuple
 
 @dag(
     start_date=datetime(2024, 1, 1),
-    schedule_interval="@daily",
+    schedule_interval = "0 0 * * 1-5",
     tags=["stock_data"],
     catchup=False
 )
